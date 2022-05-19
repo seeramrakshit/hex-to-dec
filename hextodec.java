@@ -1,4 +1,3 @@
-package com.gla1;
 import java.util.*;
 
 class HexFormatException extends IllegalArgumentException{
@@ -7,7 +6,7 @@ class HexFormatException extends IllegalArgumentException{
     }
 }
 
-public class Q1 {
+public class hexTodec {
 
     public static int hex2Dec(String givenHex) throws HexFormatException {
         givenHex = givenHex.toUpperCase();
